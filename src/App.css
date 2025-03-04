@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  background: #D4F6FF;
+}
+.header{
+  input{
+    width: 900px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  .title{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;;
+
+  }
+  button{
+    color: white;
+    background-color: #578FCA;
+  }
+}
+.mapMovie {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  gap: 20px;
+  max-width: 1280px;
+  border-radius: 10px;
+  .movie{
+    box-shadow: #578FCA 0px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    button{
+      color: white;
+      background-color: #578FCA;
+    }
+  }
+  img{
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+  }
+  h1{
+    width: 200px;
+    font-size: medium;
+  }
+  .info{
+    display: flex;
+    justify-content: space-around;
+  }
+  .cast{
+    font-size: smaller;
+  } 
+}
