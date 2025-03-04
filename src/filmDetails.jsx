@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './filmDetails.css';
 const FilmDetails = ({ isOpen, movie, onClose }) => {
   if (!isOpen || !movie) {
     return null;

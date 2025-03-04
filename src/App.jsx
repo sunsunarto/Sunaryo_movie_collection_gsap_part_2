@@ -4,7 +4,6 @@ import Swal from 'sweetalert2';
 import FilmDetails from './filmDetails.jsx';
 import { gsap } from 'gsap';
 import './App.css';
-import './FilmDetails.css';
 
 function App() {
   const [movies, setMovies] = useState([]);
